@@ -135,7 +135,7 @@ header .HomePage ul li a.active:hover{
 
 .hero-guitartStands {
   height: 100vh;
-  background: url('https://res.cloudinary.com/dz0610bcp/image/upload/v1777850958/flyer_-_guitart_stand_Madera_mccbvf.png') center center / cover no-repeat;
+  background: url('https://res.cloudinary.com/dz0610bcp/image/upload/v1777902009/IMG_6464_w72aqk.jpg') center center / cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -259,7 +259,7 @@ header .HomePage ul li a.active:hover{
 
 .impact-image img {
   width: 100%;
-  max-width: 650px;
+  max-width: 500px;
   height: auto;
   display: block;
   object-fit: cover;
@@ -502,6 +502,11 @@ footer .a_box_footer h2{
 }
 
 @media (max-width: 1024px) {
+    .nav-container {
+      display: grid;
+      grid-template-columns: 1fr auto 0fr;
+      align-items: center;
+    }
     .menu-toggle{
         display: block;
         color: #333;
@@ -592,6 +597,10 @@ footer .a_box_footer h2{
 
 @media (max-width: 700px) {
   .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .products-grid-hanger {
     grid-template-columns: 1fr;
   }
 
