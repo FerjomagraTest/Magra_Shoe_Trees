@@ -1,11 +1,7 @@
 const controller = {}
 
 controller.baseRoute = (req,res) => {
-    res.render('spanish/principal',{
-        message : req.flash('messagesend'),
-        messageReset : req.flash('resetMessage')
-    })
+    res.render('spanish/principal')
 }
 
-    
 module.exports = controller;
